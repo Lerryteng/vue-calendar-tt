@@ -26,12 +26,3 @@ Vue.use(calendarTT);
 />
 
 ```
-
-## API
-
-| 事件名 | 说明 | 参数 |
-| - | :- | :- | :-: |
-| handleClickDay | 点击某天的回调 | 某天日期 |
-| handlePrevMonth | 点击上个月的回调 | - |
-| handleNextMonth | 点击下个月的回调 | - |
-
