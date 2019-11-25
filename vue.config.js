@@ -175,6 +175,7 @@ module.exports = {
         '@less': resolve('src/assets/less'),
         '@js': resolve('src/assets/js'),
         '@components': resolve('src/components'),
+        '@common': resolve('src/common'),
         '@mixins': resolve('src/mixins'),
         '@filters': resolve('src/filters'),
         '@store': resolve('src/store'),
@@ -287,7 +288,7 @@ module.exports = {
       );
   },
   pluginOptions: {
-    lintStyleOnBuild: true,
+    lintStyleOnBuild: false,
     stylelint: {}
   }
 };

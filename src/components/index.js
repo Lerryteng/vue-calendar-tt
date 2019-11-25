@@ -1,6 +1,6 @@
 // tree shaking
-import SendCode from './SendCode';
+import CommonCalendar from './CommonCalendar';
 
 export {
-  SendCode
+  CommonCalendar
 };
